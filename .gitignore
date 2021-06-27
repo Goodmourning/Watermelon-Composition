@@ -1,2 +1,39 @@
-/Temp/
-/Library/
+/Library
+/Recordings
+/Build
+/Temp
+/AppBuildCache
+/.idea
+/.vs
+/obj
+/UnityPackageManager
+/Logs
+/.gradle/
+/Assets/Plugins/Editor/JetBrains
+/Assets/Plugins/Editor/JetBrains.meta
+/UWA_Builds/*
+
+# Ignore the auto-generated AOT compatibility dll.
+/Assets/Plugins/Sirenix/Assemblies/AOT/*
+# Ignore all unpacked demos.
+/Assets/Plugins/Sirenix/Demos/*
+# But keep the demo packages themselves.
+!/Assets/Plugins/Sirenix/Demos/*.unitypackage 
+
+*.sln
+*.csproj
+*.DS_Store
+/BuildReporters
+/TestRes
+/Temporary
+/SandBox
+/UserSettings
+/UpLoadRes
+/luaassetbundle
+
+Assets/CenturyGamePackageRes/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
+# /Assets/StreamingAssets
+# /Assets/StreamingAssets.meta
+/Assets/Tests.meta
+/Assets/Tests
+/Assets/FR2_Cache.asset
